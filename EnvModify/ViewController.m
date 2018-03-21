@@ -10,13 +10,37 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UILabel *infoLabel;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+#if TEST // 测试环境
+#if DEBUG
+    self.infoLabel.text = @"hello test env debug";
+#else
+    self.infoLabel.text = @"hello test env release";
+#endif
+#endif
+#if RELEASE // 发布环境
+#if DEBUG
+    self.infoLabel.text = @"hello release env debug";
+#else
+    self.infoLabel.text =@"hello release env release";
+#endif
+#endif
+#if ADHOC // 预发布环境
+#if DEBUG
+    self.infoLabel.text = @"hello pre-relase env debug";
+#else
+    self.infoLabel.text = @"hello pre-relase env release";
+#endif
+#endif
+    
 }
 
 

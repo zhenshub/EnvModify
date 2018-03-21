@@ -17,28 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-#if TEST // 测试环境
-#if DEBUG
-    NSLog(@"hello test env debug");
-#else
-    NSLog(@"hello test env release");
-#endif
-#endif
-#if RELEASE // 发布环境
-#if DEBUG
-    NSLog(@"hello release env debug");
-#else
-    NSLog(@"hello release env release");
-#endif
-#endif
-#if ADHOC // 预发布环境
-#if DEBUG
-    NSLog(@"hello pre-relase env debug");
-#else
-    NSLog(@"hello pre-relase env release");
-#endif
-#endif
-    
     return YES;
 }
 
