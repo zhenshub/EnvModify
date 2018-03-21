@@ -188,10 +188,10 @@
 				TargetAttributes = {
 					D0BD266F2060EA5300A8CFAF = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					D0BD270020610A6600A8CFAF = {
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -489,8 +489,8 @@
 			baseConfigurationReference = 23E76EE979359E76ADFFEA4D /* Pods-EnvModify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -502,8 +502,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -513,8 +513,8 @@
 			baseConfigurationReference = 3C922A2126EB89DA5F59E996 /* Pods-EnvModify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"RELEASE_ENV=1",
@@ -525,8 +525,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -536,7 +536,7 @@
 			baseConfigurationReference = BF1114CE295491649D65F2BB /* Pods-EnvModify_Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -548,8 +548,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -559,7 +559,7 @@
 			baseConfigurationReference = 69A734F97D6FBFB47F761A82 /* Pods-EnvModify_Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"RELEASE_ENV=1",
@@ -570,8 +570,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -637,8 +637,8 @@
 			baseConfigurationReference = 93362768A3B9FC49A9F2BA91 /* Pods-EnvModify.test debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -650,8 +650,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Test Debug";
@@ -661,7 +661,7 @@
 			baseConfigurationReference = 9B772F76CE4CEFA2A01DEDE4 /* Pods-EnvModify_Test.test debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -673,8 +673,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Test Debug";
@@ -734,8 +734,8 @@
 			baseConfigurationReference = 00E35330EB4A540C66AAC83D /* Pods-EnvModify.test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"RELEASE_ENV=1",
@@ -746,8 +746,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Test;
@@ -757,7 +757,7 @@
 			baseConfigurationReference = 9BA5D8A51D2862224A55350A /* Pods-EnvModify_Test.test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"RELEASE_ENV=1",
@@ -768,8 +768,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Test;
@@ -835,8 +835,8 @@
 			baseConfigurationReference = 4A4F5471AA7EED58539DC20D /* Pods-EnvModify.adhoc debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"RELEASE_ENV=1",
@@ -847,8 +847,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Adhoc Debug";
@@ -858,7 +858,7 @@
 			baseConfigurationReference = 74DDB16D7E3C792FD5A5EB6B /* Pods-EnvModify_Test.adhoc debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"RELEASE_ENV=1",
@@ -869,8 +869,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Adhoc Debug";
@@ -930,8 +930,8 @@
 			baseConfigurationReference = 7BDD15CF6F2266D0CEDECB49 /* Pods-EnvModify.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"RELEASE_ENV=1",
@@ -942,8 +942,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Adhoc;
@@ -953,7 +953,7 @@
 			baseConfigurationReference = A971C5259887D4D9D09B86F4 /* Pods-EnvModify_Test.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"RELEASE_ENV=1",
@@ -964,8 +964,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
-				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Adhoc;

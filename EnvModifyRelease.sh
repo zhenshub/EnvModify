@@ -13,6 +13,8 @@ bundleVersion=$(/usr/libexec/PlistBuddy -c "print CFBundleVersion" "${project_in
 
 DATE="$(date +%Y%m%d)"
 IPANAME="${APP_NAME}_V${bundleShortVersion}_${DATE}RELEASE.ipa"
+ARCHNAME="${IPANAME}.xcarchive"
+
 
 #要上传的ipa文件路径
 IPA_PATH="$HOME/${IPANAME}"
@@ -23,6 +25,24 @@ echo "=================clean================="
 xcodebuild -workspace "${APP_NAME}.xcworkspace" -scheme "${APP_NAME}"  -configuration 'Release' clean
 
 echo "+++++++++++++++++build+++++++++++++++++"
-xcodebuild -workspace "${APP_NAME}.xcworkspace" -scheme "${APP_NAME}" -sdk iphoneos -configuration 'Release' CODE_SIGN_IDENTITY="${CODE_SIGN_DISTRIBUTION}" SYMROOT='$(PWD)'
+xcodebuild -workspace "${APP_NAME}.xcworkspace" -scheme "${APP_NAME}" -sdk iphoneos -configuration 'Release'  SYMROOT='$(PWD)' -allowProvisioningUpdates
 
-xcrun -sdk iphoneos PackageApplication "./Release-iphoneos/${APP_NAME}.app" -o ~/"${IPANAME}"
+#构建
+xcodebuild archive \
+-workspace "${APP_NAME}.xcworkspace" \
+-scheme "${APP_NAME}" \
+-configuration Release \
+-archivePath $ARCHNAME \
+clean \
+build \
+-derivedDataPath ./
+if [ -e $ARCHNAME ]; then
+echo "==================xcodebuild archive Successful==================="
+else
+echo "==================xcodebuild archive Failed======================="
+exit 1
+fi
+
+#xcrun -sdk iphoneos PackageApplication "./Release-iphoneos/${APP_NAME}.app" -o ~/"${IPANAME}"
+#xcdebuild -exportArchive - archivePath
+xcodebuild -exportArchive -archivePath "${ARCHNAME}" -exportPath "${IPANAME}" -exportOptionsPlist ./ExportOptions.plist -allowProvisioningUpdates
