@@ -25,7 +25,7 @@ echo "=================clean================="
 xcodebuild -workspace "${APP_NAME}.xcworkspace" -scheme "${APP_NAME}"  -configuration 'Release' clean
 
 echo "+++++++++++++++++build+++++++++++++++++"
-/usr/local/bin/pod installpod install
+/usr/local/bin/pod install
 xcodebuild -workspace "${APP_NAME}.xcworkspace" -scheme "${APP_NAME}" -sdk iphoneos -configuration 'Release'  SYMROOT='$(PWD)' -allowProvisioningUpdates
 
 #构建
