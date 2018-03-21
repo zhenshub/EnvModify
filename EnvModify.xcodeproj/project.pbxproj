@@ -502,7 +502,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
+				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
 				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -525,7 +525,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
+				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
 				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -650,7 +650,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
+				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
 				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -746,7 +746,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
+				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
 				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -847,7 +847,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
+				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
 				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -942,7 +942,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xina.kidknowledge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70478506-84f8-4a74-8250-54c7bd4b8674";
+				PROVISIONING_PROFILE = "f660a0eb-0164-4ba0-96a9-c3da63fae69b";
 				PROVISIONING_PROFILE_SPECIFIER = KKG_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
