@@ -22,11 +22,19 @@ echo ${IPA_PATH}
 echo "${IPA_PATH}">> text.txt
 
 echo "=================clean================="
-xcodebuild -workspace "${APP_NAME}.xcworkspace" -scheme "${APP_NAME}"  -configuration 'Release' clean
+xcodebuild -workspace "${APP_NAME}.xcworkspace" \
+-scheme "${APP_NAME}" \
+-configuration 'Release' \
+clean
 
 echo "+++++++++++++++++build+++++++++++++++++"
-/usr/local/bin/pod install
-xcodebuild -workspace "${APP_NAME}.xcworkspace" -scheme "${APP_NAME}" -sdk iphoneos -configuration 'Release'  SYMROOT='$(PWD)' -allowProvisioningUpdates
+/usr/local/bin/pod install --verbose
+xcodebuild -workspace "${APP_NAME}.xcworkspace" \
+-scheme "${APP_NAME}" \
+-sdk iphoneos \
+-configuration 'Release' \
+SYMROOT='$(PWD)' \
+-allowProvisioningUpdates
 
 #构建
 xcodebuild archive \
@@ -46,4 +54,8 @@ fi
 
 #xcrun -sdk iphoneos PackageApplication "./Release-iphoneos/${APP_NAME}.app" -o ~/"${IPANAME}"
 #xcdebuild -exportArchive - archivePath
-xcodebuild -exportArchive -archivePath "${ARCHNAME}" -exportPath "${IPANAME}" -exportOptionsPlist ./ExportOptions.plist -allowProvisioningUpdates
+xcodebuild -exportArchive \
+-archivePath "${ARCHNAME}" \
+-exportPath "${IPANAME}" \
+-exportOptionsPlist ./ExportOptions.plist \
+-allowProvisioningUpdates
