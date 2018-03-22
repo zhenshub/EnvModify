@@ -489,7 +489,7 @@
 			baseConfigurationReference = 23E76EE979359E76ADFFEA4D /* Pods-EnvModify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -513,7 +513,7 @@
 			baseConfigurationReference = 3C922A2126EB89DA5F59E996 /* Pods-EnvModify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -637,7 +637,7 @@
 			baseConfigurationReference = 93362768A3B9FC49A9F2BA91 /* Pods-EnvModify.test debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -734,7 +734,7 @@
 			baseConfigurationReference = 00E35330EB4A540C66AAC83D /* Pods-EnvModify.test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -835,7 +835,7 @@
 			baseConfigurationReference = 4A4F5471AA7EED58539DC20D /* Pods-EnvModify.adhoc debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -930,7 +930,7 @@
 			baseConfigurationReference = 7BDD15CF6F2266D0CEDECB49 /* Pods-EnvModify.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: junjie li (RBG5C32B46)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GH5Y3GGUYK;
 				GCC_PREPROCESSOR_DEFINITIONS = (
