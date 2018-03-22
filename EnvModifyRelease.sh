@@ -28,7 +28,7 @@ xcodebuild -workspace "${APP_NAME}.xcworkspace" \
 clean
 
 echo "+++++++++++++++++build+++++++++++++++++"
-/usr/local/bin/pod update --verbose
+/usr/local/bin/pod install --verbose
 xcodebuild -workspace "${APP_NAME}.xcworkspace" \
 -scheme "${APP_NAME}" \
 -sdk iphoneos \
